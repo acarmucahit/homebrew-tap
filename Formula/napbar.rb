@@ -15,7 +15,7 @@ class Napbar < Formula
   def caveats
     <<~EOS
       To add NapBar to your Applications folder:
-        ln -sf #{opt_prefix}/NapBar.app /Applications/NapBar.app
+        ln -sfn #{opt_prefix}/NapBar.app /Applications/NapBar.app
 
       Then launch it:
         open /Applications/NapBar.app
